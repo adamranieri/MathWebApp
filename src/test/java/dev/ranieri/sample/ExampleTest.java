@@ -3,7 +3,7 @@ package dev.ranieri.sample;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class Example {
+public class ExampleTest {
 
     @Test
     void should_pass(){
