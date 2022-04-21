@@ -12,6 +12,7 @@ public class Example {
 
     @Test
     void show_environment(){
-        System.out.println(System.getenv("something"));
+        String variable = System.getenv("something");
+        Assertions.assertNotNull(variable);
     }
 }
