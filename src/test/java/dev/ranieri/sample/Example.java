@@ -9,4 +9,9 @@ public class Example {
     void should_pass(){
         Assertions.assertEquals(1,1);
     }
+
+    @Test
+    void show_environment(){
+        System.out.println(System.getenv("something"));
+    }
 }
