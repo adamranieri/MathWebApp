@@ -1,4 +1,4 @@
-package dev.ranieri.sample;
+package dev.ranieri.sampletests;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
